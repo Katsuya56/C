@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(void){
 	int a;
-	int *p=&a;
-	printf("%d\n",p);
+	int b;
+	printf("%d\n",a);
+	printf("%d\n",b);
 	return 0;
 }
